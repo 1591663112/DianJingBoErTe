@@ -17,6 +17,8 @@ import java.util.List;
 public class CitySelectAction extends ActionSupport{
     private List<Area> areaList;
 
+    //添加登录注册功能
+
     //定义变量,用来接收选择的是哪个大区
     private int index;
     private List<Server> servers;

@@ -24,6 +24,7 @@ public class CitySelectAction extends ActionSupport{
     //添加假数据 正常情况下数据应该从数据库中查出来
 
     public CitySelectAction(){
+        //用来存储所有大区的集合
         areaList = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
             Area area = new Area();
